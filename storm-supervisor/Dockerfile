@@ -1,5 +1,5 @@
-FROM wurstmeister/storm:0.9.4
-MAINTAINER Wurstmeister
+FROM devadaptive/storm:0.10.0
+MAINTAINER devadaptive
 
 EXPOSE 6700
 EXPOSE 6701

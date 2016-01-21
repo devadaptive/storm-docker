@@ -5,3 +5,4 @@ drpc.servers:
   - "%nimbus%"
 drpc.port: 3772
 drpc.invocations.port: 3773
+nimbus.thrift.max_buffer_size: 30000000
