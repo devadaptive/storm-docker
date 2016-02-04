@@ -3,7 +3,6 @@ FROM devadaptive/java:oracle-java8
 MAINTAINER devadaptive
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV STORM_HOME /opt/apache-storm-0.10.0
 
 
 RUN \
@@ -14,6 +13,7 @@ RUN \
     mkdir /var/run/sshd && \
     sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 
+ENV STORM_HOME /opt/apache-storm-0.10.0
 
 RUN wget -q -O - http://mirrors.sonic.net/apache/storm/apache-storm-0.10.0/apache-storm-0.10.0.tar.gz | tar -xzf - -C /opt
 
