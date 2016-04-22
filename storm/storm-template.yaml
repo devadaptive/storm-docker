@@ -6,3 +6,17 @@ drpc.servers:
 drpc.port: 3772
 drpc.invocations.port: 3773
 nimbus.thrift.max_buffer_size: 30000000
+
+# determines number of workers.
+supervisor.slots.ports:
+    - 6700
+    - 6701
+    - 6702
+    - 6703
+    - 6704
+    - 6705
+    - 6706
+    - 6707
+    - 6708
+    - 6709
+
