@@ -1,4 +1,4 @@
-FROM devadaptive/storm:0.10.0
+FROM devadaptive/storm:1.0.1
 MAINTAINER devadaptive
 RUN /usr/bin/config-supervisord.sh ui
 
