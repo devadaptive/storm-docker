@@ -20,3 +20,5 @@ supervisor.slots.ports:
     - 6708
     - 6709
 
+#worker.heap.memory.mb: 1200
+
