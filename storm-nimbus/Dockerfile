@@ -1,4 +1,4 @@
-FROM devadaptive/storm:1.0.1
+FROM devadaptive/storm:0.10.0
 MAINTAINER devadaptive
 
 ENV IS_NIMBUS_SERVER true

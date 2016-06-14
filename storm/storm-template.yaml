@@ -1,6 +1,6 @@
 storm.zookeeper.servers:
     - "%zookeeper%"
-nimbus.seeds: ["%nimbus%"]
+nimbus.host: "%nimbus%"
 drpc.servers:
   - "%nimbus%"
 drpc.port: 3772
@@ -19,6 +19,4 @@ supervisor.slots.ports:
     - 6707
     - 6708
     - 6709
-
-#worker.heap.memory.mb: 1200
 
